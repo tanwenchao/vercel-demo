@@ -2,7 +2,7 @@
 import { getData } from '../api'
 import { ref, onMounted } from 'vue'
 
-const text = ref('home - 小谭来测试vercel前端自动化部署-111')
+const text = ref('home - 小谭来测试vercel前端自动化部署-111-2222')
 
 onMounted(() => {
   getData()
